@@ -1,17 +1,17 @@
 package com.plazt_market.domain;
 
 public class PurchaseItem {
-    private int productid;
+    private int productId;
     private int quantity;
     private double total;
     private boolean active;
 
-    public int getProductid() {
-        return productid;
+    public int getProductId() {
+        return productId;
     }
 
-    public void setProductid(int productid) {
-        this.productid = productid;
+    public void setProductId(int productId) {
+        this.productId = productId;
     }
 
     public int getQuantity() {
